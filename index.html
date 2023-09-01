@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title> Word Counter </title>
+	<link rel="stylesheet" type="text/css" href="wordCounter.css">
+	<link rel="icon"  href="counter.png">
+</head>
+<body>
+	<div class="headline">
+		<h1> Word Counter </h1>
+	</div>
+	<div id="countBox">
+		<input type="text" value="" id="givenText" placeholder="Put or Paste the text here">
+		<div class="countBut">
+			<button onclick="countWord()"> Count </button>
+		</div>
+		<div class="resultBox">
+			<p id="result"> </p>
+		</div>
+
+	</div>
+	<script type="text/javascript" src="wordCounter.js"></script>
+</body>
+</html>

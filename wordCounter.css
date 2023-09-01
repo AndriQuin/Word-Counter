@@ -1,0 +1,77 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+
+:root {
+	--blue: #563594;
+	--gray: #B0A8B9;
+	--cyan: #4FFBDF;
+	--black: #352C48;
+	--darkblue: #0081D9;
+}
+
+
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-flow: column wrap;
+	width: 100vw;
+	height: 100vh;
+	background: var(--black);
+}
+
+.headline { 
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: var(--cyan);
+	font-size: 3rem;
+	text-shadow: 0px 0px 3rem var(--darkblue);
+}
+
+#countBox {
+	margin: 5rem 0;
+}
+
+#givenText {
+	background: #f1f1f1;
+	padding: 1rem;
+	margin: 1rem 0;
+}
+
+.countBut {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 2rem;
+}
+
+
+.countBut button {
+	padding: 1rem 2rem;
+	border: none;
+	color: wheat;
+	background: var(--blue);
+	margin: 1rem 0;
+	cursor: pointer;
+}
+
+.countBut button:hover {
+	text-shadow: 0px 0px 3rem var(--darkblue);
+	background: linear-gradient(180deg, var(--blue), var(--darkblue));
+	box-shadow: 0px 0px 1rem var(--darkblue);
+}	
+
+.resultBox {
+	justify-content: center;
+	align-items: center;
+	display: flex;
+}
+
+#result {
+	color: var(--cyan);
+}
