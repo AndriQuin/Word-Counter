@@ -29,7 +29,7 @@ body {
 	justify-content: center;
 	align-items: center;
 	color: var(--cyan);
-	font-size: 3rem;
+	font-size: 1rem;
 	text-shadow: 0px 0px 3rem var(--darkblue);
 }
 
@@ -74,4 +74,10 @@ body {
 
 #result {
 	color: var(--cyan);
+}
+
+@media and only screen (min-width:770px) {
+	.headline {
+		font-size: 3rem;
+	}
 }
