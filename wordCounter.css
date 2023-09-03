@@ -77,13 +77,13 @@ body {
 	color: var(--cyan);
 }
 
-@media and only screen (min-width:420px) {
+@media and only screen and (min-width:420px) {
 	.headline {
 		font-size: 1.5rem;
 	}
 }
 
-@media and only screen (min-width:770px) {
+@media only screen and (min-width:770px) {
 	.headline {
 		font-size: 3rem;
 	}
